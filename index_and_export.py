@@ -8,5 +8,5 @@ class exportSettings:
 
 
 
-def printEx():
+def export():
     print("test print")
