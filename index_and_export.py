@@ -13,5 +13,6 @@ class Extension:
         #Open self.dir
         pass
 
+print("test")
 def export():
     print("test print")
