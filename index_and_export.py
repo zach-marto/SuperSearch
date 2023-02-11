@@ -1,12 +1,17 @@
-class exportSettings:
+class ExportSettings:
     def __init__(self):
-        self.extension = ""
+        self.extension = None
         self.search_dir = ""
         self.export_dir = ""
-        self.extensions_dir = ""
         self.index_recursively = True
 
+class Extension:
+    def __init__(self, dir):
+        self.dir = dir
 
+    def assignParamsFromDir(self):
+        #Open self.dir
+        pass
 
 def export():
     print("test print")
